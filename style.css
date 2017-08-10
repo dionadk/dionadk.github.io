@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(78,32,55);
+}
+h1{
+    font-family: 'Tangerine', cursive;
+    font-family: 'Ruslan Display', cursive;
+    text-align: center;
+    line-height: 50vh;
+}
