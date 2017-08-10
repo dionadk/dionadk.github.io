@@ -14,9 +14,14 @@ h1{
     min-height: 20vh;
     color: white;
 }
-img{
-    border-radius: 40px;
-}
+
+    img {
+      margin: auto auto;
+      border: 5px solid white;
+     
+      border-radius: 50px;
+  }
+
 section {
 font-family: 'Tangerine', cursive;
 text-align: center;
