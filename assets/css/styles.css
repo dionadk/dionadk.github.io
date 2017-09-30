@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 70px
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 20px;
+}
+
+
+
+ul {
+  text-align: center;
+  background-color: rgba(185, 197, 200, 0.4);
+  display: flex;
+  justify-content: center;
+  line-height: 70px;
+  font-size: 20px;
+}
+.nav li {
+    display: inline-block;
+    width: 8em;
+}
+
+a {
+  margin: 0;
+}
