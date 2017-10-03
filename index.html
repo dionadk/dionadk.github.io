@@ -26,10 +26,16 @@
 </nav>
 </div>
 
-<div class = "subpage" id="homepage">
+<div class = "subpage showpage" id="homepage">
 		<div id="intro">
 
-			<p class = "brand"> I am a Full Stack Web Developer who is a problem solver and process oriented thinker. I have had experience in QA/ Software Testing and Software Product Configuration. Constantly looking forward to improve my skills and learn new technologies to bring creative solutions to the projects I am involved with.</p>
+      <div class="parallax">
+<label>test</label>
+      </div>
+
+      <div style="height:1000px;background-color:#fff;">
+        <p class = "brand"> I am a Full Stack Web Developer who is a problem solver and process oriented thinker. I have had experience in QA/ Software Testing and Software Product Configuration. Constantly looking forward to improve my skills and learn new technologies to bring creative solutions to the projects I am involved with.</p>
+      </div>
 
 		</div>
 	</div>
@@ -55,15 +61,112 @@
   			<br>
   			</div>
 
+        <div class="subpage" id = "mywork">
+				<h2>Check out some of my work</h2>
+
+
+					<div class="workexample" id="wexel">
+						<a href = "deployed link link" class="home"></a>
+						<div class="descriptions">
+							<h3> WEXEL</h3>
+
+							<p> I made this App using Ruby on Rails. </p>
+							<a class = "repoLink" href="github link"> GitHub Repo</a>
+
+            </div>
+					</div>
+
+					<div class="workexample" id = "hangman">
+						<a href = "hangman deployed link" class="home"></a>
+						<div class="descriptions">
+							<h3> HangMan</h3>
+
+							<p> This is the first project I built in WDI at General Assembly. I built this Hangman game using jQuery. The game  gives users the option to choose from three different categories. </p>
+							<a class = "repoLink" href="github link"> GitHub Repo</a>
+						</div>
+					</div>
+
+
+
+			</div>
+
         <footer>
-						<a href="https://www.facebook.com/Julia.Schultz13"> <img src="img/Facebook.png" alt="Facebook logo"> </a>
-						<a href="https://www.twitter.com/juliatr0n"> <img src="img/Twitter.png" alt="Twitter logo"></a>
-						<a href="https://www.linkedin.com/in/juliaschultz1"> <img src="img/Linkedin.png" alt="LinkedIn logo"> </a>
-						<a href="https://www.github.com/jschultz21"><img src="img/github.png" alt="GitHub logo"></a><br>
-						<p> Site designed by Julia Schultz, 2016 </p>
+						<a href="https://www.facebook.com/diona.david">
+              <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="#fff" d="M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M18,5H15.5A3.5,3.5 0 0,0 12,8.5V11H10V14H12V21H15V14H18V11H15V9A1,1 0 0,1 16,8H18V5Z" />
+                </svg></a>
+						<a href="https://www.linkedin.com/feed/">
+              <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="#fff" d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M18.5,18.5V13.2A3.26,3.26 0 0,0 15.24,9.94C14.39,9.94 13.4,10.46 12.92,11.24V10.13H10.13V18.5H12.92V13.57C12.92,12.8 13.54,12.17 14.31,12.17A1.4,1.4 0 0,1 15.71,13.57V18.5H18.5M6.88,8.56A1.68,1.68 0 0,0 8.56,6.88C8.56,5.95 7.81,5.19 6.88,5.19A1.69,1.69 0 0,0 5.19,6.88C5.19,7.81 5.95,8.56 6.88,8.56M8.27,18.5V10.13H5.5V18.5H8.27Z" />
+                </svg></a>
+
+						<a href="https://github.com/dionadk"></a><br>
+						<p> DK Designs, 2017 </p>
 					</footer>
 
 
 </body>
 
+<!-- <body>
+    <nav>
+        <div class="flexrow">
+            <div class="flexstretch">
+                <img src="../../../Pictures/logo.png" width="68" height="72" alt="" title="" />
+            </div>
+            <div class="flexright">
+                <a class="menuItem" href="#">ABOUT</a>
+                <a class="menuItem">PROJECTS</a>
+                <a class="menuItem" href="#skill">SKILLS</a>
+                <a class="menuItem">RESUME</a>
+                <a class="menuItem" href="#contact">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    <div class="parallax"></div>
+    <div id="about" style="height:100vh;">
+      <div class="flexcenter" style="height: 50%;font-size:36px;margin: 0;margin-top: -33%;background-color:rgba(0, 0, 0, 0.72); height:250px;">
+          <div class="flexrow">
+              <div class="parallelogram" style="background:#a71e1e;"></div>
+              <div class="parallelogram" style="background: #d61515;box-shadow: -3px 0px 20px #000000;"></div>
+              <img src="../../../Pictures/diona.png" width="284" height="84" alt="" title="" style="margin:70px 0;margin-left: -42px;position: relative;" />
+          </div>
+      </div>
+      <div class="flexcenter">
+          <label class="headerLbl" style="position: relative;margin-top: -80px;margin-left: 163px;">FULL STACK DEVELOPER</label>
+      </div>
+	</div>
+    <div id="skill" class="parallaxFixed" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/2b/Bookshelf.jpg');"></div>
+    <div class="flexrow" style="height:100vh; background-color:#ff8000;">
+
+    </div>
+    <div id="contact" class="flexrow" style="height:100vh; background-color:#d61515;">
+
+    </div>
+</body> -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+
+      $("#homepage").show();
+      $("#aboutMe").hide();
+      $("#mywork").hide();
+
+    $("#home").click(function(){
+        $("#homepage").show("slow");
+        $("#aboutMe").hide();
+        $("#mywork").hide();
+    });
+    $("#skills").click(function(){
+        $("#homepage").hide();
+        $("#aboutMe").show("slow");
+        $("#mywork").hide();
+        });
+        $("#projects").click(function(){
+          $("#homepage").hide();
+          $("#aboutMe").hide();
+          $("#mywork").show("slow");
+      });
+});
+</script>
 </html>

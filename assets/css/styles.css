@@ -1,32 +1,193 @@
-body {
-  margin: 0;
-}
-img {
-  height: 150px;
-  width: 150px;
-  border-radius: 70px
-}
+/*
 
-h1 {
-  text-align: center;
-  letter-spacing: 20px;
-}
+        .flexmargin {
+            margin-bottom: 20px;
+        }
+
+        .flexwrap {
+            -ms-flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        .flexrow {
+            display: flex;
+            -ms-flex-direction: row;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .flexrow-stretch {
+            display: flex;
+            -ms-flex-direction: row;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+            height: 100%;
+        }
+
+        .flexcol {
+            display: flex;
+            -ms-flex-direction: column;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+        }
+
+        .flexleft {
+            display: flex;
+            -ms-flex: 0 0 auto;
+            -webkit-flex: 0 0 auto;
+            flex: 0 0 auto;
+            justify-content: flex-start;
+            height: 100%;
+        }
+
+        .flexright {
+            display: flex;
+            -ms-flex: 0 0 auto;
+            -webkit-flex: 0 0 auto;
+            flex: 0 0 auto;
+            justify-content: flex-end;
+        }
+
+        .flexcenter {
+            display: flex;
+            -ms-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+            justify-content: center;
+        }
+
+        .flextab {
+            display: flex;
+            -ms-flex-direction: column;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .flexstretch {
+            display: flex;
+            flex-grow: 4;
+        }
+
+        .menuItem {
+            color: rgba(255, 255, 255, 0.78);
+            margin: 30px 20px;
+            height: 38px;
+            font-family: sans-serif;
+            text-decoration: none;
+			cursor:pointer;
+        }
+        .menuItem:hover{
+    		border-bottom: 3px solid #d61515;
+		 }
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        nav {
+            height: 70px;
+            background-color: rgba(21, 20, 20, 0.7);
+            top: 0;
+            right: 0;
+            left: 0;
+            position: fixed;
+        }
+        .parallaxFixed {
+            min-height: 300px;
+
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parallax {
+            background-image: url('assets/img/DSC03127.JPG');
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .parallelogram {
+            width: 100px;
+            height: 250px;
+            -webkit-transform: skew(20deg);
+            -moz-transform: skew(20deg);
+            -o-transform: skew(20deg);
+        }
+
+        .headerLbl {
+            color: #FFF;
+            font-size: 28px;
+            font-family: sans-serif;
+        }*/
 
 
 
-ul {
-  text-align: center;
-  background-color: rgba(185, 197, 200, 0.4);
-  display: flex;
-  justify-content: center;
-  line-height: 70px;
-  font-size: 20px;
-}
-.nav li {
-    display: inline-block;
-    width: 8em;
-}
 
-a {
-  margin: 0;
-}
+
+        body {
+          margin: 0;
+        }
+        img {
+          height: 150px;
+          width: 150px;
+          border-radius: 70px
+        }
+
+        h1 {
+          text-align: center;
+          letter-spacing: 20px;
+        }
+
+        ul {
+            text-align: center;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            line-height: 70px;
+            font-size: 20px;
+            margin: 0;
+            box-shadow: 2px 2px 5px rgba(185, 197, 200, 0.4);
+        }
+        nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left:0;
+        }
+        nav li {
+            display: inline-block;
+            width: 8em;
+        }
+
+        a {
+          margin: 0;
+        }
+        footer {
+          width: 100%;
+          background-color: rgba(185, 197, 200, 0.4);
+          margin: 0 0 20px 0;
+          text-align: center;
+          padding: 15px 0;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url("https://c.s-microsoft.com/en-ca/CMSImages/SL_Overview_1_HeroFullBleed_1_V2.jpg?version=97c6c21f-7f3c-f495-52bb-7ec19176b170");
+
+            /* Set a specific height */
+            height: 300px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
