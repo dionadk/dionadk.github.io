@@ -93,20 +93,6 @@
     text-decoration: none;
     cursor: pointer;
 }
-.footermenu{
-	width:auto;
-	margin-top:25px;
-	text-align:right;
-}
-
-.footermenuItem {
-    color: rgba(255, 255, 255, 0.78);
-    height: 38px;
-    font-family: sans-serif;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 
 .primarycolor{
   color:#d61515;
@@ -319,24 +305,6 @@ nav {
 .imgMail{
   width: 200px;
   height: 200px;
-}
-footer{
-    height: 250px;
-    background-color: #d61515;
-    box-shadow: 2px -3px 3px rgba(128, 128, 128, 0.58);
-}
-.footerlevel{
-	margin:0 50px;
-	border-bottom:1px solid #fff;
-	height:200px;
-}
-.footerLogo{
-	margin: 50px 25px;
-}
-.copyright{
-    font-family: 'Raleway', sans-serif;
-	margin-top:5px;
-	color:#fff;
 }
 /*
 form {
