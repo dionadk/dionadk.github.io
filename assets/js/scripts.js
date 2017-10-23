@@ -4,19 +4,19 @@ $(document).ready(function() {
 	var skill = $('#skill').offset().top;
 	var contact = $('#contact').offset().top;
     $(window).scroll(function() {
-    if ($(window).scrollTop() + 20 <= skill) {
+    if ($(window).scrollTop() + 100 <= skill) {
       $('#aboutMeLnk').addClass("selectedMenuItem");
       $('#projectLnk').removeClass("selectedMenuItem");
       $('#skillLnk').removeClass("selectedMenuItem");
       $('#contactLnk').removeClass("selectedMenuItem");
     }
-	else if ($(window).scrollTop() + 20 <= project) {
+	else if ($(window).scrollTop() + 100 <= project) {
       $('#aboutMeLnk').removeClass("selectedMenuItem");
       $('#skillLnk').addClass("selectedMenuItem");
       $('#projectLnk').removeClass("selectedMenuItem");
       $('#contactLnk').removeClass("selectedMenuItem");
     }
-	else if ($(window).scrollTop() + 20 <= contact) {
+	else if ($(window).scrollTop() + 100 <= contact) {
       $('#aboutMeLnk').removeClass("selectedMenuItem");
       $('#skillLnk').removeClass("selectedMenuItem");
       $('#projectLnk').addClass("selectedMenuItem");
