@@ -82,7 +82,7 @@
     font-family: sans-serif;
     text-decoration: none;
     cursor: pointer;
-    border-bottom: 3px solid #d61515;
+    border-bottom: 3px solid rgba(191,88,31,1);
 }
 
 .menuItem {
@@ -113,7 +113,7 @@
 }
 
 .menuItem:hover {
-    border-bottom: 3px solid #d61515;
+    border-bottom: 3px solid rgba(191,88,31,1);
 }
 
 body,
@@ -142,7 +142,7 @@ nav {
     background-size: cover;
 }
 .parallelogram01 {
-    background: #a71e1e;
+    background: rgba(191,88,31,1);
     width: 100px;
     height: 250px;
     -webkit-transform: skew(20deg);
@@ -151,7 +151,7 @@ nav {
 }
 
 .parallelogram02 {
-    background: #d61515;
+    background: rgba(244,133,57,1);
     box-shadow: -3px 0px 20px #000000;
     width: 100px;
     height: 250px;
@@ -174,7 +174,7 @@ nav {
 }
 
 .categoryLbl {
-    color: #d61515;
+    color: rgba(191,88,31,1);
     font-size: 28px;
     font-family: sans-serif;
     margin: 0 10px;
@@ -189,7 +189,7 @@ nav {
 }
 
 .thoughtsLbl {
-    color: #d61515;
+    color: rgba(191,88,31,1);
     font-size: 28px;
     font-family: 'Kaushan Script', cursive;
 }
@@ -299,7 +299,7 @@ nav {
 }
 
 .parallelogram03 {
-    background: #a71e1e;
+    background: rgba(191,88,31,1);
     width: 10px;
     height: 30px;
     -webkit-transform: skew(20deg);
@@ -308,7 +308,7 @@ nav {
 }
 
 .parallelogram04 {
-    background: #d61515;
+    background: rgba(244,133,57,1);
     box-shadow: -3px 0px 20px #000000;
     width: 10px;
     height: 30px;
@@ -322,7 +322,7 @@ nav {
 }
 footer{
     height: 250px;
-    background-color: #d61515;
+    background-color: rgba(21, 20, 20, 0.7);
     box-shadow: 2px -3px 3px rgba(128, 128, 128, 0.58);
 }
 .footerlevel{
