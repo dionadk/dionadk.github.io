@@ -106,6 +106,9 @@
     text-decoration: none;
     cursor: pointer;
 }
+.footermenuitem:hover {
+    border-bottom: 3px solid rgba(191,88,31,1);
+}
 
 
 .primarycolor{
