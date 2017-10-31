@@ -82,7 +82,7 @@
     font-family: sans-serif;
     text-decoration: none;
     cursor: pointer;
-    border-bottom: 3px solid rgba(191,88,31,1);
+    border-bottom: 3px solid #FF4500;
 }
 
 .menuItem {
@@ -100,14 +100,15 @@
 }
 
 .footermenuItem {
-    color: rgba(255, 255, 255, 0.78);
-    height: 38px;
+    color: rgb(120, 120, 126);
+    height: 28px;
     font-family: sans-serif;
     text-decoration: none;
     cursor: pointer;
+    font-size: 12px;
 }
 .footermenuItem:hover {
-    border-bottom: 3px solid rgba(191,88,31,1);
+    color: #FF8000;
 }
 
 
@@ -116,7 +117,7 @@
 }
 
 .menuItem:hover {
-    border-bottom: 3px solid rgba(191,88,31,1);
+    border-bottom: 3px solid #FF8000;
 }
 
 body,
@@ -145,7 +146,7 @@ nav {
     background-size: cover;
 }
 .parallelogram01 {
-    background: rgba(191,88,31,1);
+    background: #FF8000;
     width: 100px;
     height: 250px;
     -webkit-transform: skew(20deg);
@@ -154,7 +155,7 @@ nav {
 }
 
 .parallelogram02 {
-    background: rgba(244,133,57,1);
+    background: #FF4500;
     box-shadow: -3px 0px 20px #000000;
     width: 100px;
     height: 250px;
@@ -177,7 +178,7 @@ nav {
 }
 
 .categoryLbl {
-    color: rgba(191,88,31,1);
+    color: #FF8000;
     font-size: 28px;
     font-family: sans-serif;
     margin: 0 10px;
@@ -192,9 +193,10 @@ nav {
 }
 
 .thoughtsLbl {
-    color: rgba(191,88,31,1);
+    color: #FF4500;
     font-size: 28px;
     font-family: 'Kaushan Script', cursive;
+    text-align: center;
 }
 .quoteLbl {
     color: #FFF;
@@ -239,6 +241,9 @@ nav {
     border: 1px solid #fff;
     box-shadow: 2px 2px 5px grey;
     padding: 20px;
+}
+.skill_box i:hover{
+  box-shadow: 3px 3px 5px grey;
 }
 
 .about_me_box {
@@ -302,7 +307,7 @@ nav {
 }
 
 .parallelogram03 {
-    background: rgba(191,88,31,1);
+    background: #FF8000;
     width: 10px;
     height: 30px;
     -webkit-transform: skew(20deg);
@@ -311,7 +316,7 @@ nav {
 }
 
 .parallelogram04 {
-    background: rgba(244,133,57,1);
+    background: #FF4500;
     box-shadow: -3px 0px 20px #000000;
     width: 10px;
     height: 30px;
@@ -324,14 +329,14 @@ nav {
   height: 200px;
 }
 footer{
-    height: 250px;
-    background-color: rgba(21, 20, 20, 0.7);
+    height: 200px;
+    background-color: rgba(158, 158, 158, 0.1);
     box-shadow: 2px -3px 3px rgba(128, 128, 128, 0.58);
 }
 .footerlevel{
 	margin:0 50px;
-	border-bottom:1px solid #fff;
-	height:200px;
+	border-bottom:1px solid rgba(0, 0, 0, 0.51);
+	height:150px;
 }
 .footerLogo{
 	margin: 50px 25px;
@@ -339,7 +344,7 @@ footer{
 .copyright{
     font-family: 'Raleway', sans-serif;
 	margin-top:5px;
-	color:#fff;
+	color:rgba(0, 0, 0, 0.51);
 }
 /*
 form {
