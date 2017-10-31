@@ -72,6 +72,11 @@
     flex-grow: 4;
 }
 
+.divider{
+  margin: 0 5px;
+  color: #FF4500;
+  margin-top: -3px;
+}
 
 /* end flexbox */
 
